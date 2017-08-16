@@ -8,11 +8,11 @@ void main()
 	//a) The average height of students in your class
 	float avgHeight = 5.5f;
 	//b) The tax rate for incomes over $65000
-	int taxRate = 'a' >= 65000;
+	float taxRate;
 	//c) The tax rate for incomes below $5000
-	int taxRate2 = 'b' >= 5000;
+	float taxRateB;
 	//d) The total cost of all the games on your Steam library
-	float stmLibrary = 47.08;
+	float stmLibrary = 47.08f;
 
 	//2. Select suitable data types to hold the following values :
 	//a) 121
@@ -24,20 +24,21 @@ void main()
 	//d) 100000
 	int milliMeter = 100000;
 	//e) False
-	bool False;
+	bool howsThis = false;
 
 	//3. Create a program that swaps two numbers. Ask the user for 2 numbers in the console window
 	//and store the result in variables called “a” and “b” print the result to screen.Write code 
 	//that swaps the values for these variables, then print the variables “a” and “b” again.
 	//You should comment your code.
 
-	int a;
-	int b;
-	int c;
-	//print the values of a, b and c.
-	c = a; //this gives c tyhe value of a.
-	a = b; //this gives a the vaslue of b.
-	b = c; //this gives b thge value of c.  Now the values of a and b are switched.
+	int a = 12;
+	int b = 13;
+	int c = 14;
+	c = a; //this makes the two values equal.
+	a = b; 	//this swaps the values.
+	a = c;
+	
+		
 
 
 	//4. Ask the user for 5 numbers and output the average of these numbers.	
@@ -46,20 +47,13 @@ void main()
 	int h;
 	int i;
 	int j;  //these variabl;es are all separate numbers
-	(f + g + h + i + j) / 5 //this is the equation of averages with the variable numbers inside
-
-
+	((f * g * h * i * j) / 5); //this is the equation of averages with the variable numbers inside
+	
+		
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
 	//in the console proving the data was swapped.
 
-    
-	int a;
-	int b;
-	int c;
-	//print the values of a, b and c.
-	c = a; //this gives c tyhe value of a.
-	a = b; //this gives a the vaslue of b.
-	b = c; //this gives b thge value of c.  Now the values of a and b are switched.
-	std::cout << "a and b have been switched."
+
+
 
 }
