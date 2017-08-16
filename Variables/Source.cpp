@@ -33,11 +33,11 @@ void main()
 
 	int a;
 	int b;
-	a = b; //this makes the two values equal.
-	b = a; //this swaps the values.
-	int c = a + b;
-	
-		
+	int c;
+	//print the values of a, b and c.
+	c = a; //this gives c tyhe value of a.
+	a = b; //this gives a the vaslue of b.
+	b = c; //this gives b thge value of c.  Now the values of a and b are switched.
 
 
 	//4. Ask the user for 5 numbers and output the average of these numbers.	
@@ -46,13 +46,20 @@ void main()
 	int h;
 	int i;
 	int j;  //these variabl;es are all separate numbers
-	(f * g * h * i * j) / (f + g + h + i + j) //this is the equation of averages with the variable numbers inside
-	
-		
+	(f + g + h + i + j) / 5 //this is the equation of averages with the variable numbers inside
+
+
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
 	//in the console proving the data was swapped.
 
-
-
+    
+	int a;
+	int b;
+	int c;
+	//print the values of a, b and c.
+	c = a; //this gives c tyhe value of a.
+	a = b; //this gives a the vaslue of b.
+	b = c; //this gives b thge value of c.  Now the values of a and b are switched.
+	std::cout << "a and b have been switched."
 
 }
