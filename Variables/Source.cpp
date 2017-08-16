@@ -46,7 +46,7 @@ void main()
 	int h;
 	int i;
 	int j;  //these variabl;es are all separate numbers
-	(f * g * h * i * j) / (f + g + h + i + j) //this is the equation of averages with the variable numbers inside
+	(f * g * h * i * j) / 5 //this is the equation of averages with the variable numbers inside
 	
 		
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
