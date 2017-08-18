@@ -83,7 +83,7 @@ int main()
 
 	u + 1;
 
-	} while (i < 100);
+	} while (u < 100);
 
 
 	//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
