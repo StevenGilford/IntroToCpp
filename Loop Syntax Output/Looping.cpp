@@ -45,9 +45,9 @@ int main()
 
 	std::cout << i % 3 << "Fizz";
 
-	std::cout << i % 5 << "Buzz";
+ 	std::cout << i % 5 << "Buzz";
 
-	std::cout << i % 3 && i % 5 << "FizzBuzz";
+	std::cout << (i % 3 && i % 5) << "FizzBuzz";
 
 	}
 
@@ -64,7 +64,7 @@ int main()
 
 	std::cout << i % 5 << "Buzz";
 
-	std::cout << i % 3 && i % 5 << "FizzBuzz";
+	std::cout << (i % 3 && i % 5) << "FizzBuzz";
 
 	i + 1;
 
@@ -75,11 +75,11 @@ int main()
 	do 
 	{
 
-	std::Cout << i % 3 << "Fizz";
+	std::cout << i % 3 << "Fizz";
 
 	std::cout << i % 5 << "Buzz";
 
-	std::cout << i % 3 && i % 5 << "FizzBuzz";
+	std::cout << (i % 3 && i % 5) << "FizzBuzz";
 
 	i + 1;
 
