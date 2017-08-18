@@ -56,32 +56,32 @@ int main()
 	//3. Repeat problem 2 using a while loop and a do while loop.
 	//while loop
 
-	int i = 0;
+	int o = 0;
 	while (i < 100)
 	{
 
-	std::cout << i % 3 <<  "Fizz";
+	std::cout << o % 3 <<  "Fizz";
 
-	std::cout << i % 5 << "Buzz";
+	std::cout << o % 5 << "Buzz";
 
-	std::cout << (i % 3 && i % 5) << "FizzBuzz";
+	std::cout << (o % 3 && o % o) << "FizzBuzz";
 
-	i + 1;
+	o + 1;
 
 	}
 
 
-	int i;
+	int u = 0;
 	do 
 	{
 
-	std::cout << i % 3 << "Fizz";
+	std::cout << u % 3 << "Fizz";
 
-	std::cout << i % 5 << "Buzz";
+	std::cout << u % 5 << "Buzz";
 
-	std::cout << (i % 3 && i % 5) << "FizzBuzz";
+	std::cout << (u % 3 && u % 5) << "FizzBuzz";
 
-	i + 1;
+	u + 1;
 
 	} while (i < 100);
 
