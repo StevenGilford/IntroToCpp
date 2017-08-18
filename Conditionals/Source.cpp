@@ -31,7 +31,7 @@ int main()
 	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero
 	int x;
 	int y;
-	if (y == 0)
+	if (y = 0)
 	{
 		x = 100;
 	}
@@ -39,17 +39,17 @@ int main()
 	//3. Write a program that accepts an integer that represents the month of the year. 
 	//It should then display the number of days in that month. If a number that doesn’t correspond 
 	//to a month is entered then the program should display an error message. You must use a switch statement
-	int a = 1;
+	int a;
+	std::cout << "Please enter the name of a month";
+	std::cin >> a;
 	switch (a)
 	{
 	case 1:
-		a == 31;
 		std::cout << "January has 31 days";
 		break;
 	case 2:
 		std::cout << "February has 28 days.";
 		break;
-
 	case 3:
 		std::cout << "March has 31 days.";
 		break;
@@ -80,75 +80,73 @@ int main()
 	case 12:
 		std::cout << "December has 31 days.";
 		break;
+	case 13: 
+		std::cout << "Error this number is not a month of the year";
 
 	}
 	
 	//4. Redo problem 3 using if statements
 
-	int a = 1;
-	if (a == 1)
+	int h;
+	std::cout << "Please enter the name of a month";
+    std::cin >> h;
+	if (h == 1)
 	{
 		std:: cout << "January has 31 days.";
 	}
-
-	if (a == 2)
+	if (h == 2)
 	{
 		std::cout << "February has 28 days.";
 
     }
-
-	if (a == 3)
+	if (h == 3)
 	{
 		std::cout << "March has 31 days.";
 	}
-
-	if (a == 4)
+	if (h == 4)
 	{
 		std::cout << "April has 30 days.";
 	}
-
-	if (a == 5)
+	if (h == 5)
 	{
 		std::cout << "May has 30 days.";
 	}
-
-	if (a == 6)
+	if (h == 6)
 	{
 		std::cout << "June has 31 days.";
 	}
-
-	if (a == 7)
+	if (h == 7)
 	{
 		std::cout << "July has 31 days.";
 	}
-
-	if (a == 8)
+	if (h == 8)
 	{
 		std::cout << "August has 30 days.";
 	}
-
-	if (a == 9)
+	if (h == 9)
 	{
 		std::cout << "September has 31 days.";
 	}
-
-	if (a == 10)
+	if (h == 10)
 	{
 		std::cout << "October has 31 days.";
 	}
-
-	if (a == 11)
+	if (h == 11)
 	{
 		std::cout << "November has 30 days.";
 	}
-
-	if (a == 12)
+	if (h == 12)
 	{
 		std::cout << "December has 31 days.";
 	}
+	if (h == 13)
+	{
+		std::cout << "Error, this number is not a month of the year";
+	}
+
 
 	//5. Convert problem 2 into a ternary operator
 
-	int y = 0 ? x = 100 : x = 7;
+	int g = 0 ? x = 100 : x = 7;
 
 }
