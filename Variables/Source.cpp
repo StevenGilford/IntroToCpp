@@ -53,16 +53,13 @@ void main()
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
 	//in the console proving the data was swapped.
 
-	int a = 12
-	std::cin >> int a;
-	int b = 13;
-	std::cin >> int b;
-	int c = 14;
-	std::cin >> int c;
+	std::cin >> a;
+	std::cin >> b;
+	std::cin >> c;
 	c = a; //this makes the two values equal.
 	a = b; 	//this swaps the values.
 	b = c;
-	stld:cout << "these numbers have been swapped"
+    std::cout << "these numbers have been swapped";
 	
 
 }
