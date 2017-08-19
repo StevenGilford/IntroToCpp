@@ -39,15 +39,15 @@ int main()
 	//- Otherwise print the number.
 	//Note, you will need to use the modulus operator (%)
 
-	int i;
-	for (i = 0; i < 100; i++)
+	int c;
+	for (c = 0; c < 100; c++)
 	{
 
-	std::cout << i % 3 << "Fizz";
+	std::cout << c % 3 << "Fizz";
 
- 	std::cout << i % 5 << "Buzz";
+ 	std::cout << c % 5 << "Buzz";
 
-	std::cout << (i % 3 && i % 5) << "FizzBuzz";
+	std::cout << (c % 3 && c % 5) << "FizzBuzz";
 
 	}
 
@@ -91,7 +91,7 @@ int main()
 
 	int a;
 	for (a = 1; a < 99; a++)
-	{
+	
 	std::cout << a % 2 << std::endl;
 
 	}
