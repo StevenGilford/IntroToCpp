@@ -43,11 +43,14 @@ int main()
 	for (c = 0; c <= 100; c++)
 	{
 
-		std::cout << c % 3 << "Fizz";
+		std::cout << c << "Fizz";
+		iter % 3;
 
-		std::cout << c % 5 << "Buzz";
+		std::cout << c << "Buzz";
+		iter % 5;
 
-		std::cout << (c % 3 && c % 5) << "FizzBuzz";
+		std::cout << c << "FizzBuzz";
+		iter % 3 && 5;
 
 	}
 
@@ -58,11 +61,14 @@ int main()
 	while (o <= 100)
 	{
 
-		std::cout << o % 3 << "Fizz";
+		std::cout << o << "Fizz";
+		iter % 3;
 
-		std::cout << o % 5 << "Buzz";
-
-		std::cout << (o % 3 && o % 5) << "FizzBuzz";
+		std::cout << o << "Buzz";
+		iter % 5;
+		
+		std::cout << o << "FizzBuzz";
+		iter % 3 && 5;
 
 		o + 1;
 
@@ -74,14 +80,16 @@ int main()
 	do
 	{
 
-		std::cout << u % 3 << "Fizz";
+		std::cout << u << "Fizz";
+		iter % 3;
 
-		std::cout << u % 5 << "Buzz";
+		std::cout << u << "Buzz";
+		iter % 5;
 
-		std::cout << (u % 3 && u % 5) << "FizzBuzz";
+		std::cout << u << "FizzBuzz";
+		iter % 3 && 5;
 
 		u + 1;
-
 	} while (u <= 100);
 
 
