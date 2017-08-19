@@ -40,7 +40,7 @@ int main()
 	//Note, you will need to use the modulus operator (%)
 
 	int c;
-	for (c = 0; c < 100; c++)
+	for (c = 0; c <= 100; c++)
 	{
 
 		std::cout << c % 3 << "Fizz";
@@ -55,18 +55,20 @@ int main()
 	//while loop
 
 	int o = 0;
-	while (o < 100)
+	while (o <= 100)
 	{
 
 		std::cout << o % 3 << "Fizz";
 
 		std::cout << o % 5 << "Buzz";
 
-		std::cout << (o % 3 && o % o) << "FizzBuzz";
+		std::cout << (o % 3 && o % 5) << "FizzBuzz";
 
 		o + 1;
 
 	}
+	
+	//do while
 
 	int u = 0;
 	do
@@ -80,7 +82,7 @@ int main()
 
 		u + 1;
 
-	} while (u < 100);
+	} while (u <= 100);
 
 
 
@@ -88,9 +90,9 @@ int main()
 	system("pause");
 
 	int a;
-	for (a = 1; a < 99; a++)
+	for (a = 1; a <= 99; a-=2)
 	{
-		std::cout << a % 2 << std::endl;
+		std::cout << a << std::endl;
     }
 }	
 
