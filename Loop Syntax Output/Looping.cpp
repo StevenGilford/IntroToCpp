@@ -44,13 +44,13 @@ int main()
 	{
 
 		std::cout << c << "Fizz";
-		iter % 3;
+		c % 3;
 
 		std::cout << c << "Buzz";
-		iter % 5;
+		c % 5;
 
 		std::cout << c << "FizzBuzz";
-		iter % 3 && 5;
+		c % 3 && 5;
 
 	}
 
@@ -62,13 +62,13 @@ int main()
 	{
 
 		std::cout << o << "Fizz";
-		iter % 3;
+		o % 3;
 
 		std::cout << o << "Buzz";
-		iter % 5;
+		o % 5;
 		
 		std::cout << o << "FizzBuzz";
-		iter % 3 && 5;
+		o % 3 && 5;
 
 		o + 1;
 
@@ -81,13 +81,13 @@ int main()
 	{
 
 		std::cout << u << "Fizz";
-		iter % 3;
+		u % 3;
 
 		std::cout << u << "Buzz";
-		iter % 5;
+		u % 5;
 
 		std::cout << u << "FizzBuzz";
-		iter % 3 && 5;
+		u % 3 && 5;
 
 		u + 1;
 	} while (u <= 100);
