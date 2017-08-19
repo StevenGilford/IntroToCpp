@@ -43,15 +43,13 @@ int main()
 	for (c = 0; c < 100; c++)
 	{
 
-	std::cout << c % 3 << "Fizz";
+		std::cout << c % 3 << "Fizz";
 
- 	std::cout << c % 5 << "Buzz";
+		std::cout << c % 5 << "Buzz";
 
-	std::cout << (c % 3 && c % 5) << "FizzBuzz";
+		std::cout << (c % 3 && c % 5) << "FizzBuzz";
 
 	}
-
-
 
 	//3. Repeat problem 2 using a while loop and a do while loop.
 	//while loop
@@ -60,30 +58,30 @@ int main()
 	while (o < 100)
 	{
 
-	std::cout << o % 3 <<  "Fizz";
+		std::cout << o % 3 << "Fizz";
 
-	std::cout << o % 5 << "Buzz";
+		std::cout << o % 5 << "Buzz";
 
-	std::cout << (o % 3 && o % o) << "FizzBuzz";
+		std::cout << (o % 3 && o % o) << "FizzBuzz";
 
-	o + 1;
+		o + 1;
 
 	}
 
-
 	int u = 0;
-	do 
+	do
 	{
 
-	std::cout << u % 3 << "Fizz";
+		std::cout << u % 3 << "Fizz";
 
-	std::cout << u % 5 << "Buzz";
+		std::cout << u % 5 << "Buzz";
 
-	std::cout << (u % 3 && u % 5) << "FizzBuzz";
+		std::cout << (u % 3 && u % 5) << "FizzBuzz";
 
-	u + 1;
+		u + 1;
 
 	} while (u < 100);
+
 
 
 	//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
@@ -91,10 +89,9 @@ int main()
 
 	int a;
 	for (a = 1; a < 99; a++)
-	
-	std::cout << a % 2 << std::endl;
+	{
+		std::cout << a % 2 << std::endl;
+    }
+}	
 
-	}
 
-
-}
