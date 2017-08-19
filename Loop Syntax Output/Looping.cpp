@@ -57,7 +57,7 @@ int main()
 	//while loop
 
 	int o = 0;
-	while (i < 100)
+	while (o < 100)
 	{
 
 	std::cout << o % 3 <<  "Fizz";
