@@ -80,7 +80,7 @@ int main()
 		}
 
 
-		o + 1;
+		o++;
 
 	}
 	
@@ -105,7 +105,7 @@ int main()
 			std::cout << "FizzBuzz";
 		}
 
-		u + 1;
+		u++;
 	} while (u <= 100);
 
 
