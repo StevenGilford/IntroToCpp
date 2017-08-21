@@ -42,16 +42,20 @@ int main()
 	int c;
 	for (c = 0; c <= 100; c++)
 	{
+		if (c % 3 == 0)
+		{
+			std::cout << "Fizz";
+		}
 
-		std::cout << c << "Fizz";
-		c % 3;
+		if (c % 5 == 0)
+		{
+			std::cout << "Buzz";
+		}
 
-		std::cout << c << "Buzz";
-		c % 5;
-
-		std::cout << c << "FizzBuzz";
-		c % 3 && 5;
-
+		if (c % 3 && 5 == 0)
+		{
+			std::cout << "FizzBuzz";
+		}
 	}
 
 	//3. Repeat problem 2 using a while loop and a do while loop.
@@ -60,15 +64,21 @@ int main()
 	int o = 0;
 	while (o <= 100)
 	{
+		if (c % 3 == 0)
+		{
+			std::cout << "Fizz";
+		}
 
-		std::cout << o << "Fizz";
-		o % 3;
-
-		std::cout << o << "Buzz";
-		o % 5;
+		if (c % 5 == 0)
+		{
+			std::cout << "Buzz";
+		}
 		
-		std::cout << o << "FizzBuzz";
-		o % 3 && 5;
+		if (c % 3 && 5 == 0)
+		{
+			std::cout << "FizzBuzz";
+		}
+
 
 		o + 1;
 
@@ -80,14 +90,20 @@ int main()
 	do
 	{
 
-		std::cout << u << "Fizz";
-		u % 3;
+		if (c % 3 == 0)
+		{
+			std::cout << "Fizz";
+		}
 
-		std::cout << u << "Buzz";
-		u % 5;
+		if (c % 5 == 0)
+		{
+			std::cout << "Buzz";
+		}
 
-		std::cout << u << "FizzBuzz";
-		u % 3 && 5;
+		if (c % 3 && 5 == 0)
+		{
+			std::cout << "FizzBuzz";
+		}
 
 		u + 1;
 	} while (u <= 100);
@@ -98,9 +114,21 @@ int main()
 	system("pause");
 
 	int a;
-	for (a = 1; a <= 99; a-=2)
+	for (a = 1; a <= 99; a++)
 	{
-		std::cout << a << std::endl;
+		if (a == 0)
+		{
+			std::cout << "nothing here";
+		}
+		if(c % 2 == 0)
+		{
+			std::cout << c;
+		}
+
+		if (a == 100)
+		{
+			std::cout << "nothing here";
+		}
     }
 }	
 
