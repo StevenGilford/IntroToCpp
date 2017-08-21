@@ -31,7 +31,7 @@ int main()
 	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero
 	int x;
 	int y;
-	if (y = 0)
+	if (y == 0)
 	{
 		x = 100;
 	}
@@ -147,6 +147,7 @@ int main()
 
 	//5. Convert problem 2 into a ternary operator
 
-	int g = 0 ? x = 100 : x = 7;
+	int g;
+    (g == 0) ? x = 100 : x = 7;
 
 }
