@@ -45,7 +45,7 @@ int main()
 
 	int deCounter[11];
 	int numeral = 10;
-		for (int i = 0; i < 11; i++)
+		for (int i = 0; i < 11; i--)
 		{
 			deCounter[i] = numeral;
 			numeral -= 1;
