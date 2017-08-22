@@ -5,39 +5,39 @@ int main()
 	//sepcified).
 	//a. heights of students
 
-	float studentHeight [13];
+	float studentHeight[13];
 
 	//b. age of parents
 
-	int parentalAges [26];
+	int parentalAges[26];
 
 	//c. true of false questions
 
-	bool questionList [20];
+	bool questionList[20];
 
 	//d. letters of the alphabet
 
-	char Alphabet [26];
+	char Alphabet[26];
 
 	//2. What is the size in memory of the following arrays
 	//a. 
-	float heights [5];
+	float heights[5];
 
 	//The memory size is 20 bytes.
 
 	//b. 
-	int ages [10];
+	int ages[10];
 
 	//The memory size is 40 bytes.
 
 	//c. 
-	char letters [26];
+	char letters[26];
 
 	//the memory size is 26 bytes.
 
 	//3. Declare an array with the values 1 - 10;
 
-	int Counter [11] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	int Counter[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 	//4. Using the array created in problem 3 print the 5th index.
 	std::cout << Counter [5];
 
@@ -55,6 +55,8 @@ int main()
 	//number into the array. Display the largest and smallest numbers 
 	//to the console
 
+		int Spectral[5];
+		std::cout << "Please input 5 numbers"
 
 
 	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
