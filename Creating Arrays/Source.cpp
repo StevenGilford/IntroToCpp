@@ -58,7 +58,11 @@ int main()
 	int Spectral[5];
 	std::cout << "Please input 5 numbers";
 	std::cin >> Spectral[5];
-		
+	for (int i = 0; i <= std::cin;  )
+	{
+		if (Spectral[1] < Spectral[2] ||  )
+	}
+
 
 
 	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
