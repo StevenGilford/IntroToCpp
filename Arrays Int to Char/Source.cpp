@@ -15,7 +15,7 @@
 		{
 			
 		}
-		std::cout << Muse;
+		std::cout << Muse[] << std::endl;
 	}
 	
 }
