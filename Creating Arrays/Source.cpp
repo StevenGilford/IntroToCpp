@@ -18,26 +18,25 @@ char Alphabet [26];
 
 //2. What is the size in memory of the following arrays
 //a. 
-float heights[5];
+float heights [5];
 
 //The memory size is 20 bytes.
 
 //b. 
-int ages[10];
+int ages [10];
 
 //The memory size is 40 bytes.
 
 //c. 
-char letters[26];
+char letters [26];
 
 //the memory size is 26 bytes.
 
 //3. Declare an array with the values 1 - 10;
 
-int 
-
+int Counter [11] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 //4. Using the array created in problem 3 print the 5th index.
-
+ 
 
 
 //5. Using a loop, populate an array of size 10 with the values 10 - 1.
