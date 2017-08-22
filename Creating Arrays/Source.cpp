@@ -55,12 +55,23 @@ int main()
 	//number into the array. Display the largest and smallest numbers 
 	//to the console
 
-		int Spectral[5];
-		std::cout << "Please input 5 numbers"
+	int Spectral[5];
+	std::cout << "Please input 5 numbers";
+	std::cin >> Spectral[5];
+		
 
 
 	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
 	//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
+		
+	int aNight[3][3];
+		for (int i = 0; i < 10; i++)
+		{
 
+			for(int i = 0; i < 10; i++)
+			{
 
+			}
+	    }
+		std::cout << 
 }
