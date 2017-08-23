@@ -63,7 +63,6 @@ int main()
 	   {
 		   if (Spectral[] < Spectral [])
 			   
-		   if (true)
 			   std::cout << Spectral[true];
 	   }
 	if (Spectral[1] > Spectral[2] > Spectral [3] > Spectral [4] > Spectral [5])
