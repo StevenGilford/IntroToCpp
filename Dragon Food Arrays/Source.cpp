@@ -17,5 +17,6 @@ int main()
 	//	- The greatest amount of food eaten during one day and which dragon that was
 	//	- The least amount of food eaten during one day and which dragon that was
 
+	int dragonFood[3][7];
 
 }
