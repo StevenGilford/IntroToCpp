@@ -58,15 +58,19 @@ int main()
 	int Spectral[5];
 	std::cout << "Please input 5 numbers";
 	std::cin >> Spectral[5];
-	if (Spectral[1] < Spectral[5])
-	   for (int i = 0; i < std::cin;  i++)
+	if (Spectral[1] < Spectral[2] < Spectral [3] < Spectral [4] < Spectral [5])
+	   for (int i = 0; i = Spectral[1];  i++)
 	   {
-		   if (Spectral[1] < Spectral[2] ||  )
+		   if (Spectral[] < Spectral [])
+			   
+		   if (true)
+			   std::cout << Spectral[true];
 	   }
-	if (Spectral[5] > Spectral[1])
-		for (int )
+	if (Spectral[1] > Spectral[2] > Spectral [3] > Spectral [4] > Spectral [5])
+		for (int i = 0; i = Spectral[1]; i++)
 		{
-
+			if (true)
+				std::cout << Spectral[true];
 		}
 
 
@@ -76,11 +80,11 @@ int main()
 	int aNight[3][3];
 		for (int i = 0; i < 10; i++)
 		{
-
+			aNight[i][i] = ;
 			for(int i = 0; i < 10; i++)
 			{
 
 			}
 	    }
-		std::cout << 
+		std::cout << ;
 }
