@@ -57,21 +57,17 @@ int main()
 
 		int simpleArray[5];
 		int a = 0;
+		int b = 0;
 		std::cout << "please type 5 numbers";
 		std::cin >> simpleArray[5];
-		
+		for (int i = 0; i < 5; i++)
+		{
+			
+		}
+		std::cout << a << std::endl;
 
 	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
 	//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
 		
-	int aNight[3][3];
-		for (int i = 0; i < 10; i++)
-		{
-			aNight[i][i] = ;
-			for(int i = 0; i < 10; i++)
-			{
-
-			}
-	    }
-		std::cout << ;
+	
 }
