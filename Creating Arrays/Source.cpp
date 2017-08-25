@@ -60,33 +60,22 @@ int main()
 	int b = 0;
 	int smallest = 0;
 	int largest = 0;
-	std::cout << "please type 5 numbers";
+	std::cout << "Please type 5 numbers";
 	std::cin >> simpleArray[0];
 	std::cin >> simpleArray[1];
 	std::cin >> simpleArray[2];
 	std::cin >> simpleArray[3];
 	std::cin >> simpleArray[4];
-	if (simpleArray[0] < simpleArray[1] && simpleArray[0] < simpleArray[2] && simpleArray[0] < simpleArray[3] && simpleArray[0] < simpleArray[4])
-		a = simpleArray[0];
-	if (simpleArray[1] < simpleArray[0] && simpleArray[1] < simpleArray[2] && simpleArray[1] < simpleArray[3] && simpleArray[1] < simpleArray[4])
-		a = simpleArray[1];
-	if (simpleArray[2] < simpleArray[0] && simpleArray[2] < simpleArray[1] && simpleArray[2] < simpleArray[3] && simpleArray[2] < simpleArray[4])
-		a = simpleArray[2];
-	if (simpleArray[3] < simpleArray[0] && simpleArray[3] < simpleArray[1] && simpleArray[3] < simpleArray[2] && simpleArray[3] < simpleArray[4])
-		a = simpleArray[3];
-	if (simpleArray[4] < simpleArray[0] && simpleArray[4] < simpleArray[1] && simpleArray[4] < simpleArray[2] && simpleArray[4] < simpleArray[3])
-		a = simpleArray[4];
-		
-	if (simpleArray[0] > simpleArray[1] && simpleArray[0] > simpleArray[2] && simpleArray[0] > simpleArray[3] && simpleArray[0] > simpleArray[4])
-		b = simpleArray[0];
-	if (simpleArray[1] > simpleArray[0] && simpleArray[1] > simpleArray[2] && simpleArray[1] > simpleArray[3] && simpleArray[1] > simpleArray[4])
-		b = simpleArray[1];
-	if (simpleArray[2] > simpleArray[0] && simpleArray[2] > simpleArray[1] && simpleArray[2] > simpleArray[3] && simpleArray[2] > simpleArray[4])
-		b = simpleArray[2];
-	if (simpleArray[3] > simpleArray[0] && simpleArray[3] > simpleArray[1] && simpleArray[3] > simpleArray[2] && simpleArray[3] > simpleArray[4])
-		b = simpleArray[3];
-	if (simpleArray[4] > simpleArray[0] && simpleArray[4] > simpleArray[1] && simpleArray[4] > simpleArray[2] && simpleArray[4] > simpleArray[3])
-		b = simpleArray[4];
+	for (int i = 0; i < 5; i++)
+	{
+		if (simpleArray[i] < simpleArray[i])
+			a = simpleArray[i];
+	}
+	for (int i = 0; i < 5; i++)
+	{
+		if (simpleArray[i] > simpleArray[i])
+			b = simpleArray[i];
+	}
 	std::cout << "smallest" << a << std::endl;
 	std::cout << "largest" << b << std::endl;
 	
