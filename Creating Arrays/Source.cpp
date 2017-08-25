@@ -58,30 +58,38 @@ int main()
 	int simpleArray[5];
 	int a = 0;
 	int b = 0;
-	int smallest;
-	int largest;
+	int smallest = 0;
+	int largest = 0;
 	std::cout << "please type 5 numbers";
-	std::cin >> simpleArray[5];
-	if (simpleArray[0] < simpleArray[1])
-		std::cout << smallest << a;
-	if (simpleArray[1] < simpleArray[2])
-		std::cout << smallest << a;
-	if (simpleArray[2] < simpleArray[3])
-		std::cout << smallest << a;
-	if (simpleArray[3] < simpleArray[4])
-		std::cout << smallest << a;
+	std::cin >> simpleArray[0];
+	std::cin >> simpleArray[1];
+	std::cin >> simpleArray[2];
+	std::cin >> simpleArray[3];
+	std::cin >> simpleArray[4];
+	if (simpleArray[0] < simpleArray[1] && simpleArray[0] < simpleArray[2] && simpleArray[0] < simpleArray[3] && simpleArray[0] < simpleArray[4])
+		a = simpleArray[0];
+	if (simpleArray[1] < simpleArray[0] && simpleArray[1] < simpleArray[2] && simpleArray[1] < simpleArray[3] && simpleArray[1] < simpleArray[4])
+		a = simpleArray[1];
+	if (simpleArray[2] < simpleArray[0] && simpleArray[2] < simpleArray[1] && simpleArray[2] < simpleArray[3] && simpleArray[2] < simpleArray[4])
+		a = simpleArray[2];
+	if (simpleArray[3] < simpleArray[0] && simpleArray[3] < simpleArray[1] && simpleArray[3] < simpleArray[2] && simpleArray[3] < simpleArray[4])
+		a = simpleArray[3];
+	if (simpleArray[4] < simpleArray[0] && simpleArray[4] < simpleArray[1] && simpleArray[4] < simpleArray[2] && simpleArray[4] < simpleArray[3])
+		a = simpleArray[4];
 		
-	if (simpleArray[0] > simpleArray[1])
-		std::cout << largest << b;
-	if (simpleArray[1] > simpleArray[2])
-		std::cout << largest << b;
-	if (simpleArray[2] > simpleArray[3])
-		std::cout << largest << b;
-	if (simpleArray[3] > simpleArray[4])
-		std::cout << largest << b;
-	std::cout << a << std::endl;
-	std::cout << b << std::endl;
-	return 0;
+	if (simpleArray[0] > simpleArray[1] && simpleArray[0] > simpleArray[2] && simpleArray[0] > simpleArray[3] && simpleArray[0] > simpleArray[4])
+		b = simpleArray[0];
+	if (simpleArray[1] > simpleArray[0] && simpleArray[1] > simpleArray[2] && simpleArray[1] > simpleArray[3] && simpleArray[1] > simpleArray[4])
+		b = simpleArray[1];
+	if (simpleArray[2] > simpleArray[0] && simpleArray[2] > simpleArray[1] && simpleArray[2] > simpleArray[3] && simpleArray[2] > simpleArray[4])
+		b = simpleArray[2];
+	if (simpleArray[3] > simpleArray[0] && simpleArray[3] > simpleArray[1] && simpleArray[3] > simpleArray[2] && simpleArray[3] > simpleArray[4])
+		b = simpleArray[3];
+	if (simpleArray[4] > simpleArray[0] && simpleArray[4] > simpleArray[1] && simpleArray[4] > simpleArray[2] && simpleArray[4] > simpleArray[3])
+		b = simpleArray[4];
+	std::cout << "smallest" << a << std::endl;
+	std::cout << "largest" << b << std::endl;
+	
 
 
 
@@ -100,5 +108,5 @@ int main()
 	//std::cout << gridArray[3][3];
 
 
-
+	system("pause");
 }
