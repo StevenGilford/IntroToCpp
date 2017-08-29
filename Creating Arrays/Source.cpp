@@ -81,8 +81,31 @@ int main()
 	}
 	std::cout << "smallest" << a << std::endl;
 	std::cout << "largest" << b << std::endl;
-	
 
+=======
+
+	int simpleArray[5];
+	int a = simpleArray[0];
+	int b = simpleArray[0];
+	std::cout << "Please type 5 numbers";
+	std::cin >> simpleArray[0];
+	std::cin >> simpleArray[1];
+	std::cin >> simpleArray[2];
+	std::cin >> simpleArray[3];
+	std::cin >> simpleArray[4];
+	for (int i = 0; i < 5; i++)
+	{
+		if (simpleArray[i] <= a)
+			a = simpleArray[i];
+	}
+	for (int i = 0; i < 5; i++)
+	{
+
+		if (simpleArray[i] >= b)
+			b = simpleArray[i];
+	}
+	std::cout << "smallest is " << a << std::endl;
+	std::cout << "largest is " << b << std::endl;
 >>>>>>> origin/master
 
 
