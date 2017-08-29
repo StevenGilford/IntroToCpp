@@ -17,6 +17,16 @@ int main()
 	//	- The greatest amount of food eaten during one day and which dragon that was
 	//	- The least amount of food eaten during one day and which dragon that was
 
-	int dragonFood[3][7];
+	int Bob;
+	int Cat;
+	int Scott;
+	int dragonFood[3][7] = { {10, 1, 11, 4, 0, 20, 5},
+							 {5, 17, 1, 2, 6, 12, 8},
+							 {3, 8, 9, 15, 9, 4, 9} };
+	Bob = { 10, 1, 11, 4, 0, 20, 5 };
+	Cat = { 5, 17, 1, 2, 6, 12, 8 };
+	Scott = { 3, 8, 9, 15, 9, 4, 9 };
+
+
 
 }
