@@ -82,7 +82,7 @@ int main()
 		break;
 	case 13: 
 		std::cout << "Error this number is not a month of the year";
-
+		break;
 	}
 	
 	//4. Redo problem 3 using if statements
