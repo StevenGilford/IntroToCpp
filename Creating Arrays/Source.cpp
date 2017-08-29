@@ -55,22 +55,7 @@ int main()
 	//number into the array. Display the largest and smallest numbers 
 	//to the console
 
-	int Spectral[5];
-	std::cout << "Please input 5 numbers";
-	std::cin >> Spectral[5];
-	if (Spectral[1] < Spectral[2] < Spectral [3] < Spectral [4] < Spectral [5])
-	   for (int i = 0; i = Spectral[1];  i++)
-	   {
-		   if (Spectral[] < Spectral [])
-			   
-			   std::cout << Spectral[true];
-	   }
-	if (Spectral[1] > Spectral[2] > Spectral [3] > Spectral [4] > Spectral [5])
-		for (int i = 0; i = Spectral[1]; i++)
-		{
-			if (true)
-				std::cout << Spectral[true];
-		}
+	
 
 
 	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
@@ -79,7 +64,6 @@ int main()
 	int aNight[3][3];
 		for (int i = 0; i < 10; i++)
 		{
-			aNight[i][i] = ;
 			for(int i = 0; i < 10; i++)
 			{
 
