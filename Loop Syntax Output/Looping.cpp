@@ -1,5 +1,8 @@
 #include <iostream>
-
+int firstFizzBussForLoop();
+int secondFizzBuzzWhileLoop();
+int thirdFizzBuzzDoWhileLoop();
+int fourthLooptoOneHundred();
 int main()
 {
 	//1. What is the out put of the following code samples?
@@ -128,4 +131,105 @@ int main()
     }
 }	
 
+//2. Using a for loop, iterate through numbers 0 to 100.
+//-For multiples of 3 print “Fizz”
+//- For multiples of 5 print “Buzz”
+//- For multiples of 3 and 5 print “FizzBuzz”
+//- Otherwise print the number.
+//Note, you will need to use the modulus operator (%)
+int firstFizzBussForLoop()
+{
+	int d;
+	for (d = 0; d <= 100; d++)
+	{
+		if (d % 3 == 0)
+		{
+			std::cout << "Fizz";
+		}
 
+		if (d % 5 == 0)
+		{
+			std::cout << "Buzz";
+		}
+
+		if (d % 3 && 5 == 0)
+		{
+			std::cout << "FizzBuzz";
+		}
+	}
+	return 0;
+}
+
+//3. Repeat problem 2 using a while loop and a do while loop.
+//while loop
+int secondFizzBuzzWhileLoop()
+{
+	int l = 0;
+	while (l <= 100)
+	{
+		if (l % 3 == 0)
+		{
+			std::cout << "Fizz";
+		}
+
+		if (l % 5 == 0)
+		{
+			std::cout << "Buzz";
+		}
+
+		if (l % 3 && 5 == 0)
+		{
+			std::cout << "FizzBuzz";
+		}
+
+
+		l++;
+
+	}
+	return 0;
+}
+
+int thirdFizzBuzzDoWhileLoop()
+{
+	int w = 0;
+	do
+	{
+
+		if (w % 3 == 0)
+		{
+			std::cout << "Fizz";
+		}
+
+		if (w % 5 == 0)
+		{
+			std::cout << "Buzz";
+		}
+
+		if (w % 3 && 5 == 0)
+		{
+			std::cout << "FizzBuzz";
+		}
+
+		w++;
+	} while (w <= 100);
+	return 0;
+}
+
+//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
+int fourthLooptoOneHundred()
+{
+	int t;
+	for (t = 1; t <= 99; t++)
+	{
+		if (t == 0)
+		{
+			std::cout << "nothing here";
+		}
+
+		if (t == 100)
+		{
+			std::cout << "nothing here";
+		}
+	}
+	return 0;
+}
