@@ -1,4 +1,5 @@
 #include <iostream>
+
 int main()
 {
 	//1. Declare an array for each of the following(size of array does not matter unless
