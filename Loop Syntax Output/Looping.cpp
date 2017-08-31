@@ -64,17 +64,17 @@ int main()
 	int o = 0;
 	while (o <= 100)
 	{
-		if (c % 3 == 0)
+		if (o % 3 == 0)
 		{
 			std::cout << "Fizz";
 		}
 
-		if (c % 5 == 0)
+		if (o % 5 == 0)
 		{
 			std::cout << "Buzz";
 		}
 		
-		if (c % 3 && 5 == 0)
+		if (o % 3 && 5 == 0)
 		{
 			std::cout << "FizzBuzz";
 		}
@@ -90,17 +90,17 @@ int main()
 	do
 	{
 
-		if (c % 3 == 0)
+		if (u % 3 == 0)
 		{
 			std::cout << "Fizz";
 		}
 
-		if (c % 5 == 0)
+		if (u % 5 == 0)
 		{
 			std::cout << "Buzz";
 		}
 
-		if (c % 3 && 5 == 0)
+		if (u % 3 && 5 == 0)
 		{
 			std::cout << "FizzBuzz";
 		}
@@ -119,10 +119,6 @@ int main()
 		if (a == 0)
 		{
 			std::cout << "nothing here";
-		}
-		if(c % 2 == 0)
-		{
-			std::cout << c;
 		}
 
 		if (a == 100)
