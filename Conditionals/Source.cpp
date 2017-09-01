@@ -60,10 +60,10 @@ int main()
 		std::cout << "April has 30 days.";
 		break;
 	case 5:
-		std::cout << "May has 30 days.";
+		std::cout << "May has 31 days.";
 		break;
 	case 6:
-		std::cout << "June has 31 days.";
+		std::cout << "June has 30 days.";
 		break;
 	case 7:
 		std::cout << "July has 31 days.";
@@ -72,7 +72,7 @@ int main()
 		std::cout << "August has 31 days.";
 		break;
 	case 9:
-		std::cout << "September has 31 days.";
+		std::cout << "September has 30 days.";
 		break;
 	case 10:
 		std::cout << "October has 31 days.";
@@ -112,11 +112,11 @@ int main()
 	}
 	if (h == 5)
 	{
-		std::cout << "May has 30 days.";
+		std::cout << "May has 31 days.";
 	}
 	if (h == 6)
 	{
-		std::cout << "June has 31 days.";
+		std::cout << "June has 30 days.";
 	}
 	if (h == 7)
 	{
@@ -124,11 +124,11 @@ int main()
 	}
 	if (h == 8)
 	{
-		std::cout << "August has 30 days.";
+		std::cout << "August has 31 days.";
 	}
 	if (h == 9)
 	{
-		std::cout << "September has 31 days.";
+		std::cout << "September has 30 days.";
 	}
 	if (h == 10)
 	{
@@ -191,19 +191,19 @@ int overwhelmingOfSwitchAndCase()
 		std::cout << "April has 30 days.";
 		break;
 	case 5:
-		std::cout << "May has 30 days.";
+		std::cout << "May has 31 days.";
 		break;
 	case 6:
-		std::cout << "June has 31 days.";
+		std::cout << "June has 30 days.";
 		break;
 	case 7:
 		std::cout << "July has 31 days.";
 		break;
 	case 8:
-		std::cout << "August has 31 days.";
+		std::cout << "August has 30 days.";
 		break;
 	case 9:
-		std::cout << "September has 31 days.";
+		std::cout << "September has 30 days.";
 		break;
 	case 10:
 		std::cout << "October has 31 days.";
@@ -246,11 +246,11 @@ int barrageOfIfStatements()
 	}
 	if (q == 5)
 	{
-		std::cout << "May has 30 days.";
+		std::cout << "May has 31 days.";
 	}
 	if (q == 6)
 	{
-		std::cout << "June has 31 days.";
+		std::cout << "June has 30 days.";
 	}
 	if (q == 7)
 	{
@@ -258,11 +258,11 @@ int barrageOfIfStatements()
 	}
 	if (q == 8)
 	{
-		std::cout << "August has 30 days.";
+		std::cout << "August has 31 days.";
 	}
 	if (q == 9)
 	{
-		std::cout << "September has 31 days.";
+		std::cout << "September has 30 days.";
 	}
 	if (q == 10)
 	{
