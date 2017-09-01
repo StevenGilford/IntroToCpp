@@ -1,5 +1,9 @@
 #include <iostream>
-
+void newArrays();
+int arrayUsage();
+int loopingWithArrays();
+int sizeArrayDisplay();
+int arraysForNumbers();
 int main()
 {
 	//1. Declare an array for each of the following(size of array does not matter unless
@@ -56,35 +60,6 @@ int main()
 	//number into the array. Display the largest and smallest numbers 
 	//to the console
 
-<<<<<<< HEAD
-	
-=======
-	int simpleArray[5];
-	int a = 0;
-	int b = 0;
-	int smallest = 0;
-	int largest = 0;
-	std::cout << "Please type 5 numbers";
-	std::cin >> simpleArray[0];
-	std::cin >> simpleArray[1];
-	std::cin >> simpleArray[2];
-	std::cin >> simpleArray[3];
-	std::cin >> simpleArray[4];
-	for (int i = 0; i < 5; i++)
-	{
-		if (simpleArray[i] < simpleArray[i])
-			a = simpleArray[i];
-	}
-	for (int i = 0; i < 5; i++)
-	{
-		if (simpleArray[i] > simpleArray[i])
-			b = simpleArray[i];
-	}
-	std::cout << "smallest" << a << std::endl;
-	std::cout << "largest" << b << std::endl;
-
-=======
-
 	int simpleArray[5];
 	int a = simpleArray[0];
 	int b = simpleArray[0];
@@ -107,8 +82,6 @@ int main()
 	}
 	std::cout << "smallest is " << a << std::endl;
 	std::cout << "largest is " << b << std::endl;
->>>>>>> origin/master
-
 
 	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
 	//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
@@ -139,4 +112,80 @@ int main()
 
 	system("pause");
 >>>>>>> origin/master
+}
+//1. Declare an array for each of the following(size of array does not matter unless
+//sepcified).
+void newArrays()
+{
+	//a. heights of students
+
+	float tallnessOfStudents[32];
+
+	//b. age of parents
+
+	int GuardianAges[32];
+
+	//c. true of false questions
+
+	bool listOfQuiz[45];
+
+	//d. letters of the alphabet
+
+	char writingSystemTools[26];
+	return;
+}
+//3. Declare an array with the values 1 - 10;
+//4. Using the array created in problem 3 print the 5th index.
+int arrayUsage()
+{
+	int Numerous[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	std::cout << Numerous[5];
+	return 0;
+}
+//5. Using a loop, populate an array of size 10 with the values 10 - 1.
+int loopingWithArrays()
+{
+	int reversalNumeral[11];
+	int numeral = 10;
+	for (int i = 0; i < 11; i++)
+	{
+		reversalNumeral[i] = numeral;
+		numeral -= 1;
+	}
+	return 0;
+}
+//6. Create a an array of size five then ask the user to input five 		
+//number into the array. Display the largest and smallest numbers 
+//to the console
+int sizeArrayDisplay()
+{
+	int twilightArray[5];
+	int r = twilightArray[0];
+	int u = twilightArray[0];
+	std::cout << "Please type 5 numbers";
+	std::cin >> twilightArray[0];
+	std::cin >> twilightArray[1];
+	std::cin >> twilightArray[2];
+	std::cin >> twilightArray[3];
+	std::cin >> twilightArray[4];
+	for (int i = 0; i < 5; i++)
+	{
+		if (twilightArray[i] <= r)
+			r = twilightArray[i];
+	}
+	for (int i = 0; i < 5; i++)
+	{
+
+		if (twilightArray[i] >= u)
+			u = twilightArray[i];
+	}
+	std::cout << "smallest is " << r << std::endl;
+	std::cout << "largest is " << u << std::endl;
+	return 0;
+}
+//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
+//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
+int arraysForNumbers()
+{
+	return 0;
 }
