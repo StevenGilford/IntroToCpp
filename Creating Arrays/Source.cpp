@@ -55,14 +55,15 @@ int main()
 		deCounter[i] = numeral;
 		numeral -= 1;
 	}
-
+	
 	//6. Create a an array of size five then ask the user to input five 		
 	//number into the array. Display the largest and smallest numbers 
 	//to the console
 
 	int simpleArray[5];
-	int a = simpleArray[0];
-	int b = simpleArray[0];
+	int a = 0;
+	int b = 0;
+	int i;
 	std::cout << "Please type 5 numbers";
 	std::cin >> simpleArray[0];
 	std::cin >> simpleArray[1];
@@ -71,21 +72,26 @@ int main()
 	std::cin >> simpleArray[4];
 	for (int i = 0; i < 5; i++)
 	{
-		if (simpleArray[i] <= a)
+		if (i == 0)
+		{
 			a = simpleArray[i];
-	}
-	for (int i = 0; i < 5; i++)
-	{
-
-		if (simpleArray[i] >= b)
 			b = simpleArray[i];
+		}
+		else
+		{
+			if (simpleArray[i] < a)
+				a = simpleArray[i];
+			if (simpleArray[i] > b)
+				b = simpleArray[i];
+		}
 	}
+
 	std::cout << "smallest is " << a << std::endl;
 	std::cout << "largest is " << b << std::endl;
 
 	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
 	//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
-<<<<<<< HEAD
+
 		
 	int aNight[3][3];
 		for (int i = 0; i < 10; i++)
@@ -95,8 +101,8 @@ int main()
 
 			}
 	    }
-		std::cout << ;
-=======
+		
+
 
 	//int gridArray[3][3];
 	//for (int i = 0; i < 3; i++)
@@ -111,7 +117,7 @@ int main()
 
 
 	system("pause");
->>>>>>> origin/master
+
 }
 //1. Declare an array for each of the following(size of array does not matter unless
 //sepcified).
@@ -160,8 +166,9 @@ int loopingWithArrays()
 int sizeArrayDisplay()
 {
 	int twilightArray[5];
-	int r = twilightArray[0];
-	int u = twilightArray[0];
+	int v = 0;
+	int w = 0;
+	int i;
 	std::cout << "Please type 5 numbers";
 	std::cin >> twilightArray[0];
 	std::cin >> twilightArray[1];
@@ -170,17 +177,22 @@ int sizeArrayDisplay()
 	std::cin >> twilightArray[4];
 	for (int i = 0; i < 5; i++)
 	{
-		if (twilightArray[i] <= r)
-			r = twilightArray[i];
+		if (i == 0)
+		{
+			v = twilightArray[i];
+			w = twilightArray[i];
+		}
+		else
+		{
+			if (twilightArray[i] < v)
+				v = twilightArray[i];
+			if (twilightArray[i] > w)
+				w = twilightArray[i];
+		}
 	}
-	for (int i = 0; i < 5; i++)
-	{
 
-		if (twilightArray[i] >= u)
-			u = twilightArray[i];
-	}
-	std::cout << "smallest is " << r << std::endl;
-	std::cout << "largest is " << u << std::endl;
+	std::cout << "smallest is " << v << std::endl;
+	std::cout << "largest is " << w << std::endl;
 	return 0;
 }
 //7. Create a program that creates a small 3x3 array of integers.Use a nested for 
