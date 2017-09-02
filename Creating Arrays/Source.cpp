@@ -92,30 +92,18 @@ int main()
 	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
 	//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
 
-		
-	int aNight[3][3];
-		for (int i = 0; i < 10; i++)
+	int gridArray[3][3];
+	int z;
+	int s;
+	for (int z = 0; z < 3; z++)
+	{
+		for (int s = 0; s < 3; s++)
 		{
-			for(int i = 0; i < 10; i++)
-			{
-
-			}
-	    }
-		
-
-
-	//int gridArray[3][3];
-	//for (int i = 0; i < 3; i++)
-	//{
-	//	for (int q = 0; q < 3; q++)
-	//	{
-	//		gridArray[3][3] = q;
-	//
-	//	}
-	//}
-	//std::cout << gridArray[3][3];
-
-
+			gridArray[3][3] = (z+1)*(s+1);
+	
+		}
+	}
+	
 	system("pause");
 
 }
@@ -190,7 +178,7 @@ int sizeArrayDisplay()
 				w = twilightArray[i];
 		}
 	}
-
+	
 	std::cout << "smallest is " << v << std::endl;
 	std::cout << "largest is " << w << std::endl;
 	return 0;
@@ -199,5 +187,16 @@ int sizeArrayDisplay()
 //loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
 int arraysForNumbers()
 {
+	int aNight[3][3];
+	int b;
+	int x;
+	for (int b = 0; b < 3; b++)
+	{
+		for (int x = 0; x < 3; x++)
+		{
+			aNight[3][3] = (b + 1)*(x + 1);
+		}
+	}
+
 	return 0;
 }
