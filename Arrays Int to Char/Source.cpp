@@ -1,4 +1,5 @@
 #include <iostream>
+int functionSimplicity();
  int main()
 {
 	//The problem to be solved is to declare an array of integers.
@@ -19,3 +20,19 @@
 	}
 	
 }
+ int functionSimplicity()
+ {
+	 char f = 176;
+	 int Roming[255];
+	 for (int Roming = 0; Roming <= 255; Roming++)
+	 {
+		 Roming = f + 65;
+		 if (Roming = 256)
+		 {
+			 break;
+		 }
+		 std::cout << Roming << std::endl;
+	 }
+	 return 0;
+ }
+
