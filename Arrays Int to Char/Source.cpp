@@ -11,11 +11,11 @@
 	for (int Muse = 0; Muse <= 255; Muse++)
 	{
 		Muse = b + 65;
-		if (Muse < 256)
+		if (Muse = 256)
 		{
-			
+			break;
 		}
-		std::cout << Muse[] << std::endl;
+		std::cout << Muse << std::endl;
 	}
 	
 }
