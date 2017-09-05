@@ -1,6 +1,36 @@
 #include <iostream>
 //Find the sum of the two largest values in an array
 //Bonus: allow the user to input the array values
+int AdditionFunction(int addArray[], int length)
+{
+	int sum = 0;
+	for (int i = 0; i < length; i++)
+	{
+		sum += addArray[i];
+
+	}
+	return sum;
+}
+int SubtractionFunction(int subtArray[], int length, int sub)
+{
+	for (int i = 0; i < length; i++)
+	{
+		subtArray[i] -= sub;
+	}
+	return sub;
+}
+int MultiplicationFunction(int a, int b, int c)
+{
+	c = a * b;
+	return c;
+}
+int DivisionFunction(int divArray[], int length)
+{
+	for (int i = 0; i < length; i++)
+	{
+
+	}
+}
 
 int main()
 {
