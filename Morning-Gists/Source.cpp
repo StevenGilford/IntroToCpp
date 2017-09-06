@@ -69,3 +69,29 @@ int main()
 	std::cout << "The two largest values combined is " << q << std::endl;
 
 }
+
+//2. Create a function for each of the following math operators. They must return a value.
+//and take in at least two argument. Once all the functions have been created you will need to 
+//invoke them and print out the return.
+//a. Addition
+
+//b. Subtraction
+
+//c. Multiplication
+
+//d. Division
+
+
+//3. Create a function that takes in two arguments, one beign an array of float and the other
+//being the size of the array. It must return the largest value in the array.
+
+
+//4. Using recursion write a function that prints out the Fibonacci sequence.
+
+
+//5. The following statement calls a function named Half. The Half function returns a value that 
+//is half that of the argument. Write the function.
+
+
+//6. Write a function that takes as its parameters an array of integers and the size of the array 
+// and returns the sum of the values in the array.
