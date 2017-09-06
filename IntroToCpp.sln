@@ -22,7 +22,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Creating Arrays", "Creating
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dragon Food Arrays", "Dragon Food Arrays\Dragon Food Arrays.vcxproj", "{FABCFBA7-6D24-453C-97FC-1F2B3578B079}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Morning-Gists", "Morning-Gists\Morning-Gists.vcxproj", "{5173E371-DE7D-4D4B-9BED-F2D15717D775}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Morning-Gists(error supposed to be repository)", "Morning-Gists\Morning-Gists.vcxproj", "{5173E371-DE7D-4D4B-9BED-F2D15717D775}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToe Game", "TicTacToe Game\TicTacToe Game.vcxproj", "{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,6 +98,14 @@ Global
 		{5173E371-DE7D-4D4B-9BED-F2D15717D775}.Release|x64.Build.0 = Release|x64
 		{5173E371-DE7D-4D4B-9BED-F2D15717D775}.Release|x86.ActiveCfg = Release|Win32
 		{5173E371-DE7D-4D4B-9BED-F2D15717D775}.Release|x86.Build.0 = Release|Win32
+		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Debug|x64.ActiveCfg = Debug|x64
+		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Debug|x64.Build.0 = Debug|x64
+		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Debug|x86.ActiveCfg = Debug|Win32
+		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Debug|x86.Build.0 = Debug|Win32
+		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Release|x64.ActiveCfg = Release|x64
+		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Release|x64.Build.0 = Release|x64
+		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Release|x86.ActiveCfg = Release|Win32
+		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
