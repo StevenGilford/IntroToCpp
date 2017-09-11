@@ -3,7 +3,7 @@
 struct Items
 {
 	char mName[255];
-	int Cost;
+	int mCost;
 	int mQuantity;
 };
 struct Shop
@@ -11,12 +11,14 @@ struct Shop
 	int mTotalGold;
 	Items mItems[5];
 };
-void PrintShopUInventory(Shop ShopData)
+void PrintShopInventory(Shop ShopData)
 {
-	std::cout << "current shop funds: " << ShopData.mTotalGold;
+	std::cout << "current shop funds: " << ShopData.mTotalGold << std::endl;
 	for (int i = 0; i < 5; i++)
 	{
-
+		std::cout << "Item Name: " << ShopData.mItems[i].mName << std::endl;
+		std::cout << "Item Cost: " << ShopData.mItems[i].mCost << std::endl;
+		std::cout << "Stock    : " << ShopData.mItems[i].mQuantity << std::endl;
 	}
 }
 
@@ -146,6 +148,11 @@ int main()
 	blacksmith.mItems[3] = { "Sword", 30, 1 };
 	blacksmith.mItems[4] = { "Excaliber", 1500, 1 };
 
+	PrintShopInventory(blacksmith);
+
+	blacksmith.mItems[0].mCost = 6;
+	std::cout << "Changing Prices" << std::endl;
+	PrintShopInventory(blacksmith);
 	system("pause");
 }
 //
