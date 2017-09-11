@@ -25,25 +25,34 @@ int main()
 	int scottAverageDailyFood;
 	int averageFoodDailyTogether;
 	int dragonFood[3][7] = { { 10, 1, 11, 4, 0, 20, 5 },
-	{ 5, 17, 1, 2, 6, 12, 8 },
-	{ 3, 8, 9, 15, 9, 4, 9 } };
-	Bob = { [0][0],[0][1],[0][2],[0][3],[0][4],[0][5],[0][6],[0][7] };
-	Cat = { 5, 17, 1, 2, 6, 12, 8 };
-	Scott = { 3, 8, 9, 15, 9, 4, 9 };
+	{ 5, 17, 1, 2, 6, 12, 8 },                           //data is already here, so no need for
+	{ 3, 8, 9, 15, 9, 4, 9 } };                          //"step one" of inputting data in Friday review
+	
 
-	for (int i = 0; i < 7; i++)
+	for (int i = 0; i < 3; i++)
 	{
-		for (int i = 0; i < 3; i++)
+		std::cout << "Dragon" << i << "|";
+		for (int u = 0; u < 7; u++)
 		{
-			averageFoodDailyTogether = Bob + Cat + Scott;
+			std::cout << [i][u] << "|";
 		}
 		std::cout << averageFoodDailyTogether;
 
 	}
+	std::cout << std::endl;
 
-	bobAverageDailyFood = dragonFood{ [0],[1] } +{[0], [2]} +{[0], [3]} +{[0], [4]} +{[0], [5]} +{[0], [6]} +{[0], [7]} / 7;
-	catAverageDailyFood = dragonFood{ [1],[1] } +{[1], [2]} +{[1], [3]} +{[1], [4]} +{[1], [5]} +{[1], [6]} +{[1], [7]} / 7;
-	scottAverageDailyFood = dragonFood{ [2],[1] } +{[2], [2]} +{[2], [3]} +{[2], [4]} +{[2], [5]} +{[2], [6]} +{[2], [7]} / 7;
+	int totalFoodSum;
+	for (int i = 0; i < 3; i++)
+	{
+		for (int u = 0; u < 7; u++)
+		{
+			totalFoodSum += [i][u];
+		}
+	}
+	float avg = (float)(totalFoodSum)/21;
+
+	std::cout << "This is the total average of all food the dragons ate." << avg << std::endl;
+
 
 	int a = 0;
 	int b = 0;
