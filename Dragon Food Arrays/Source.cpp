@@ -34,7 +34,7 @@ int main()
 		std::cout << "Dragon" << i << "|";
 		for (int u = 0; u < 7; u++)
 		{
-			std::cout << [i][u] << "|";
+			std::cout << dragonFood[i][u] << "|";
 		}
 		std::cout << averageFoodDailyTogether;
 

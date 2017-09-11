@@ -26,6 +26,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Morning-Gists(error suppose
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToe Game", "TicTacToe Game\TicTacToe Game.vcxproj", "{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "excersize fodder", "excersize fodder\excersize fodder.vcxproj", "{C3FACF51-ED29-4CD3-A2E1-19B4408EB546}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -106,8 +108,19 @@ Global
 		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Release|x64.Build.0 = Release|x64
 		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Release|x86.ActiveCfg = Release|Win32
 		{0471ACEB-FC8B-4588-BDEA-84E63F0C5E19}.Release|x86.Build.0 = Release|Win32
+		{C3FACF51-ED29-4CD3-A2E1-19B4408EB546}.Debug|x64.ActiveCfg = Debug|x64
+		{C3FACF51-ED29-4CD3-A2E1-19B4408EB546}.Debug|x64.Build.0 = Debug|x64
+		{C3FACF51-ED29-4CD3-A2E1-19B4408EB546}.Debug|x86.ActiveCfg = Debug|Win32
+		{C3FACF51-ED29-4CD3-A2E1-19B4408EB546}.Debug|x86.Build.0 = Debug|Win32
+		{C3FACF51-ED29-4CD3-A2E1-19B4408EB546}.Release|x64.ActiveCfg = Release|x64
+		{C3FACF51-ED29-4CD3-A2E1-19B4408EB546}.Release|x64.Build.0 = Release|x64
+		{C3FACF51-ED29-4CD3-A2E1-19B4408EB546}.Release|x86.ActiveCfg = Release|Win32
+		{C3FACF51-ED29-4CD3-A2E1-19B4408EB546}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3FACF51-ED29-4CD3-A2E1-19B4408EB546} = {6A0B28C5-936B-4960-BE8A-202ED64F81AC}
 	EndGlobalSection
 EndGlobal
