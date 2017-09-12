@@ -1,26 +1,26 @@
 #include <iostream>
 
-struct Items
-{
-	char mName[255];
-	int mCost;
-	int mQuantity;
-};
-struct Shop
-{
-	int mTotalGold;
-	Items mItems[5];
-};
-void PrintShopInventory(Shop ShopData)
-{
-	std::cout << "current shop funds: " << ShopData.mTotalGold << std::endl;
-	for (int i = 0; i < 5; i++)
-	{
-		std::cout << "Item Name: " << ShopData.mItems[i].mName << std::endl;
-		std::cout << "Item Cost: " << ShopData.mItems[i].mCost << std::endl;
-		std::cout << "Stock    : " << ShopData.mItems[i].mQuantity << std::endl;
-	}
-}
+//struct Items
+//{
+//	char mName[255];
+//	int mCost;
+//	int mQuantity;
+//};
+//struct Shop
+//{
+//	int mTotalGold;
+//	Items mItems[5];
+//};
+//void PrintShopInventory(Shop ShopData)
+//{
+//	std::cout << "current shop funds: " << ShopData.mTotalGold << std::endl;
+//	for (int i = 0; i < 5; i++)
+//	{
+//		std::cout << "Item Name: " << ShopData.mItems[i].mName << std::endl;
+//		std::cout << "Item Cost: " << ShopData.mItems[i].mCost << std::endl;
+//		std::cout << "Stock    : " << ShopData.mItems[i].mQuantity << std::endl;
+//	}
+//}
 
 //struct Vehicle
 //{
@@ -46,9 +46,10 @@ void PrintShopInventory(Shop ShopData)
 //struct Student
 //{
 //	char mName[255];
-//	char mId[255];
+//	char ID
 //	int mAge;
 //};
+
 
 //struct Player
 //{
@@ -71,8 +72,7 @@ void PrintShopInventory(Shop ShopData)
 //
 
 int main()
-{
-	//Vehicle MatthewCar = { 4, 2, "Nissan", "Frontier", 2001 };
+{	//Vehicle MatthewCar = { 4, 2, "Nissan", "Frontier", 2001 };
 	//Vehicle LukeCar = { 4, 4, "Subaru", "BRZ", 2014 };
 	//Vehicle StevenCar = { 2, 1, "Mongoose", "Legion L40", 2017 }; //I actually walk, this is a fun example or filler.
 	//Vehicle ebayAutomotive[15];
@@ -106,25 +106,25 @@ int main()
 	//		std::cout << "no results found." << std::endl;
 	//}
 
-	//	Student classRoom[7];
-		//	classRoom[0] = { "Zach", "s171", 18 };
-		//	classRoom[1] = { "Luke", "s172", 18 };
-		//	classRoom[2] = { "Matthew", "s173", 18 };
-		//	classRoom[3] = { "TJ", "s174", 21 };
-		//	classRoom[4] = { "Steven", "s175", 19 };
-		//	classRoom[5] = { "Ralenski", "s176", 20 };
-		//	classRoom[6] = { "Brett", "s177", 18 };
-		//
-		//	int oldStudent = 0;
-		//	int greatestAge = classRoom[0].mAge;
-		//	for (int i = 0; i < 7; i++)
-		//	{
-		//		if (classRoom[i].mAge > greatestAge)
-		//			greatestAge = classRoom[i].mAge;
-		//		    oldStudent = i;
-		//	}
-		//	std::cout << "the oldest student is " << classRoom[greatestAge].mName << ".  Their ID is " << classRoom[greatestAge].mId 
-		//		<< ".  Their age is " << classRoom[greatestAge].mAge << "\n";
+	/*Student classRoom[7];
+			classRoom[0] = { "Zach", "s171", 18 };
+			classRoom[1] = { "Luke", "s172", 18 };
+			classRoom[2] = { "Matthew", "s173", 18 };
+			classRoom[3] = { "TJ", "s174", 21 };
+			classRoom[4] = { "Steven", "s175", 19 };
+			classRoom[5] = { "Ralenski", "s176", 20 };
+			classRoom[6] = { "Brett", "s177", 18 };
+		
+			int oldStudent = 0;
+			int greatestAge = classRoom[0].mAge;
+			for (int i = 0; i < 7; i++)
+			{
+				if (classRoom[i].mAge > greatestAge)
+					greatestAge = classRoom[i].mAge;
+				    oldStudent = i;
+			}
+			std::cout << "the oldest student is " << classRoom[greatestAge].mName << ".  Their ID is " << classRoom[greatestAge].mId 
+				<< ".  Their age is " << classRoom[greatestAge].mAge << "\n";*/
 
 	//	Player Matthew = {};
 		//	Player Dan = CreationScreen();
@@ -141,20 +141,19 @@ int main()
 		//	}
 		//    system("pause");
 
-	Shop blacksmith = { 2000 };
+	/*Shop blacksmith = { 2000 };
 	blacksmith.mItems[0] = { "Stick", 1, 1 };
 	blacksmith.mItems[1] = { "Wand", 5, 1 };
 	blacksmith.mItems[2] = { "Dagger", 15, 1 };
 	blacksmith.mItems[3] = { "Sword", 30, 1 };
 	blacksmith.mItems[4] = { "Excaliber", 1500, 1 };
-
 	PrintShopInventory(blacksmith);
-
 	blacksmith.mItems[0].mCost = 6;
 	std::cout << "Changing Prices" << std::endl;
 	PrintShopInventory(blacksmith);
-	system("pause");
+	system("pause");*/
 }
+
 //
 //Player CreationScreen()
 //{
@@ -168,4 +167,3 @@ int main()
 //	return newCreation;
 //}
 //
-
