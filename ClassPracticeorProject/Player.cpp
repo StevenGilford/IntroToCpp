@@ -1,4 +1,5 @@
 #include "Player.h"
+#include "Point2D.h"
 #include <iostream>
 
 Player::Player()
