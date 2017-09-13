@@ -1,7 +1,6 @@
 #include <iostream>
 #include "Player.h"
 #include "Vehicle.h"
-#include "Point2D.h"
 
 
 int main()
@@ -15,6 +14,8 @@ int main()
 	Player playerOne;
 	Player playerTwo(Test2, "Steven");
 	Player playerThree(Point2D(1, 5), "Bob");
+	bool test = playerOne.LevelUp();
+
 
 	/*Player steven;
 	steven.mHealth = 100;

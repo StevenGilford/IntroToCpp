@@ -65,10 +65,10 @@ int DiviFunction(int g, int j)
 
 }
 
-std::cout << AddFunction() << std::endl;
-std::cout <<
-std::cout <<
-std::cout <<
+//std::cout << AddFunction() << std::endl;
+//std::cout <<
+//std::cout <<
+//std::cout <<
 
 //3. Create a function that takes in two arguments, one beign an array of float and the other
 //being the size of the array. It must return the largest value in the array.
