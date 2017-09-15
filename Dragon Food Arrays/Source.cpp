@@ -17,10 +17,10 @@ int main()
 	//	- The greatest amount of food eaten during one day and which dragon that was
 	//	- The least amount of food eaten during one day and which dragon that was
 
-	int Bob;
-	int Cat;
+	int Bob;                             
+	int Cat;                              
 	int Scott;
-	int bobAverageDailyFood;
+	int bobAverageDailyFood;                             //int Bob to averageFoodDailyTogether are just remnants of my original attempt.
 	int catAverageDailyFood;
 	int scottAverageDailyFood;
 	int averageFoodDailyTogether;
@@ -95,5 +95,5 @@ int main()
 	}
 	std::cout << "The thinnest dragon is " << skeleDragon << "and it ate " << smallAmount << "in one day.\n";
 
-	system; ("pause");
+	system("pause");
 }
