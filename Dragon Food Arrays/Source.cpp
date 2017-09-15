@@ -46,36 +46,54 @@ int main()
 	{
 		for (int u = 0; u < 7; u++)
 		{
-			totalFoodSum += [i][u];
+			totalFoodSum += dragonFood[i][u];
 		}
 	}
 	float avg = (float)(totalFoodSum)/21;
 
 	std::cout << "This is the total average of all food the dragons ate." << avg << std::endl;
 
-
-	int a = 0;
-	int b = 0;
-	int i;
-	for (int i = 0; i < 7; i++)
+	for (int i; i < 3; i++)
 	{
-		for (int i = 0; i < 3; i++)
+		int indivDragonSum = 0;
+		for (int u; u < 7; u++)
 		{
-			if (i == 0)
-			{
-				a = dragonFood[i];
-				b = dragonFood[i];
-			}
-			else
-			{
-				if (dragonFood[i] < a)
-					a = dragonFood[i];
-				if (dragonFood[i] > b)
-					b = dragonFood[i];
-			}
+			indivDragonSum += dragonFood[i][u];
+		}
+		float averPerday = (float)(indivDragonSum) / 7;
+		std::cout << "The Average Food eaten per Day by " << i << ":" << averPerday << std::endl;
+	}
+	
+	int numDay = 0;
+	int fatDragon = 0;
+	int biggestAmount = dragonFood[0][0];
+	for(int i; i < 3; i++)
+	{
+		for (int u; u < 7; u++)
+		{
+			if (dragonFood[i][u] > biggestAmount)
+				biggestAmount = dragonFood[i][u];
+			fatDragon = i;
+			numDay = u;
 		}
 	}
-	std::cout << "Least amount of food eaten is from" << "Bob and Cat" << a << std::endl;
-	std::cout << "Greatest amount of food eaten is from " << "Bob" << b << std::endl;
+	std::cout <<  "The fattest dragon is " << fatDragon << "and it ate " << biggestAmount << "in one day.\n";
 
+
+	int numbeDay = 0;
+	int skeleDragon = 0;
+	int smallAmount = dragonFood[0][0];
+	for (int i; i < 3; i++)
+	{
+		for (int u; u < 7; u++)
+		{
+			if (dragonFood[i][u] < smallAmount)
+				smallAmount = dragonFood[i][u];
+			skeleDragon = i;
+			numbeDay = u;
+		}
+	}
+	std::cout << "The thinnest dragon is " << skeleDragon << "and it ate " << smallAmount << "in one day.\n";
+
+	system; ("pause");
 }
