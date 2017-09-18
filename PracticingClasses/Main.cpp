@@ -20,6 +20,7 @@ int main()
 		zombieArray[i].SetStrength(rand() % 10000);
 
 	}
+	
 	while (zombieArray[i].SetHealth(rand() > 0)
 	{
 
