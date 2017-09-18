@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Zombeis.h"
 
-Zombei::Zombei();
+Zombei::Zombei()
 {
 	mEndurance = 100;
 	mPower = 100;

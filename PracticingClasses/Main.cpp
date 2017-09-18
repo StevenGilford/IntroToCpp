@@ -21,12 +21,8 @@ int main()
 
 	}
 	
-	while (zombieArray[i].SetHealth(rand() > 0)
-	{
-
-	}
 	zombieArray[5];
-	zombieArray[].GetHealth() - zombieArray
+	zombieArray[].GetHealth() - zombieArray;
 
 
 	system("pause");
