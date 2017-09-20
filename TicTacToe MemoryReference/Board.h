@@ -8,57 +8,18 @@ private:
 	int numColumns;
 	int numRows;
 public:
-	Board()
-	{
-		mPlaySpace = new char[9];
-		numColumns = 3;
-		numRows = 3;
-		mBoardSize = 9;
-		ClearBoard();
-	}
-
-	Board(int rows, int columns)
-	{
-		mPlaySpace = new char[rows * columns];
-		numColumns = columns;
-		numRows = rows;
-		mBoardSize = numColumns* numRows;
-		ClearBoard();
-	}
-
-
-	void ClearBoard()
-	{
-		for (int i = 0; i < this-> mBoardSize; i++)
-		{
-			mPlaySpace[i] = 'X';
-		}
-		
-	}
+	Board();
 	
-	~Board()
-	{
-		delete this-> mPlaySpace;
-	}
-
-	void DisplayBoard()
-	{
-		for (int i = 0; i < this-> mBoardSize; i++)
-		{
-			std::cout << mPlaySpace[i];
-			if (i % numColumns == numColumns - 1)
-				std::cout << std::endl;
-		}
-	}
-
-	bool PlacePiece(char piece, int place)
-	{
+	Board(int rows, int columns);
+	
+	void ClearBoard();
 		
-	}
+	~Board();
 
-	bool WinLose()
-	{
-
-	}
+	void DisplayBoard();
+	
+	bool PlacePiece(char piece, int place);
+	
+	bool WinLose();
 
 };
